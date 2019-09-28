@@ -1,0 +1,44 @@
+{
+    "name": "patrickleijser/kigoapi-client",
+    "description": "https://www.kigoapis.com/core/v0.8/swagger/",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api",
+        "kigo"
+    ],
+    "homepage": "http://patrickleijser.nl",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "Patrick Leijser",
+            "homepage": "http://patrickleijser.nl"
+        },
+        {
+            "name": "OpenAPI-Generator contributors",
+            "homepage": "https://openapi-generator.tech"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "~2.12"
+    },
+    "autoload": {
+        "psr-4": { "Piksel\\Kigo\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Piksel\\Kigo\\" : "test/" }
+    }
+}
